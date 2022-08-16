@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 16 Aug 2022 06:39:36 at https://www.designesia.com/themes/lovus/01_index_2.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.designesia.com/themes/lovus/01_index_2.html -O1 "C:\My Web Sites\Wedding Invitation Ridwan" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+06:39:40	Warning: 	Note: due to https://www.designesia.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/fonts/glyphicons-halflings-regular.eot (from https://www.designesia.com/themes/lovus/css/bootstrap.css)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/fonts/glyphicons-halflings-regular.eot? (from https://www.designesia.com/themes/lovus/css/bootstrap.css)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/fonts/glyphicons-halflings-regular.woff (from https://www.designesia.com/themes/lovus/css/bootstrap.css)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/fonts/glyphicons-halflings-regular.ttf (from https://www.designesia.com/themes/lovus/css/bootstrap.css)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/fonts/glyphicons-halflings-regular.svg (from https://www.designesia.com/themes/lovus/css/bootstrap.css)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/css/grabbing.png (from https://www.designesia.com/themes/lovus/css/owl.carousel.css)
+06:40:59	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/css/AjaxLoader.gif (from https://www.designesia.com/themes/lovus/css/owl.carousel.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/ui/arrow-down-form.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/ui/arrow-down-form-hover.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/dotted.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/icon-slide-plus.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/icon-slide-min.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/close.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/close-2.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/icon-url.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/icon-zoom.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/list-arrow.png (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:04	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/images_02/page-loader.gif (from https://www.designesia.com/themes/lovus/css/style.css)
+06:41:24	Warning: 	File not parsed, looks like binary: https://www.designesia.com/themes/lovus/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+06:41:25	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/contact.html (from https://www.designesia.com/themes/lovus/02_about.html)
+06:41:40	Error: 	"Not Found" (404) at link https://www.designesia.com/themes/lovus/css/font/ytp-regular.eot (from https://www.designesia.com/themes/lovus/css/jquery.mb.YTPlayer.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 4 seconds : 217 links scanned, 196 files written (13260497 bytes overall) [13401279 bytes received at 108074 bytes/sec], 367738 bytes transferred using HTTP compression in 39 files, ratio 17%, 10.3 requests per connection
+(20 errors, 2 warnings, 0 messages)
