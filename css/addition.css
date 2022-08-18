@@ -19,9 +19,6 @@
 ::placeholder { /* Most modern browsers support this now. */
    color:    whitesmoke;
 }
-button.beginButton {
-    width: fit-content;
-}
 
 .img-custom {
     height: 100%!important;
@@ -69,11 +66,50 @@ input[type=text], select, textarea {
     margin: 0 auto;
     color: white;
 }
-.btn {
-    background-color: #D4AF37!important;
-}
 .row-custom {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+    h2.name {
+        font-size: 90px!important;
+    }
+    span.deco-big {
+        font-size: 90px!important;
+        padding-bottom: 20px;
+    }
+    .spacer-double-custom {
+        height: 0px;
+    }
+}
+
+@media screen and (max-height: 500px){  
+    .img-custom {
+        height: 146px!important;
+        margin-top: 10px!important;
+    }
+    h2.name {
+        display: none;
+        visibility: hidden;
+    }
+    span.deco-big {
+        display: none;
+        visibility: hidden;
+    }
+    .spacer-single-custom {
+        display: none;
+        visibility: hidden;
+    }
+    .spacer-double-custom {
+        display: none;
+        visibility: hidden;
+    }
+    /* .section-custom {
+        height: 672px!important;
+    } */
+    .div-custom {
+        margin-bottom: 0px!important;
+    }
 }
