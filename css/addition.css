@@ -27,6 +27,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-inline-size: 100%;
+    block-size: auto;
 }
 
 .container-custom {
@@ -84,7 +86,51 @@ input[type=text], select, textarea {
         height: 0px;
     }
 }
+@media screen and (max-width: 412px) {
+    .img-custom {
+        height: 146px!important;
+        margin-top: 10px!important;
+    }
+    .custom-1 {
+        margin-top: 0px!important;
+    }
+    h2.name {
+        font-size: 20vw!important;
+    }
+    span.deco-big {
+        font-size: 20vw!important;
+        padding-bottom: 20px;
+    }
+    .spacer-double-custom {
+        height: 0px;
+    }
+    blockquote.blockquote-custom {
+        font-size: 15px!important;
+    }
 
+}
+@media screen and (max-height: 564px) {
+    span.deco-big {
+        font-size: 20vw!important;
+        padding-bottom: 0px!important;
+    }
+    .container .col-md-5 {
+        margin-bottom: 0px;
+    }
+}
+
+/* @media screen and (max-width: 375px) {
+    h2.name {
+        font-size: 90px!important;
+    }
+    span.deco-big {
+        font-size: 90px!important;
+        padding-bottom: 20px;
+    }
+    .spacer-double-custom {
+        height: 0px;
+    }
+} */
 @media screen and (max-height: 500px){  
     .img-custom {
         height: 146px!important;
