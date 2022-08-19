@@ -106,9 +106,9 @@ input[type=text], select, textarea {
         display: none;
         visibility: hidden;
     }
-    /* .section-custom {
-        height: 672px!important;
-    } */
+    .custom-section {
+        padding: 0px!important;
+    }
     .div-custom {
         margin-bottom: 0px!important;
     }
