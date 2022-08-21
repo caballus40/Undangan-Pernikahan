@@ -171,8 +171,7 @@
                         <div class="col-md-5 text-center">
                             <div class="padding40">
                                 <h2>Lutfiah Amalia Mutaqin</h2>
-                                <p>Putri dari Bapak Roni Mutaqin dan Ibu Siti Nurhayati. <br> "There is only one happiness in
-                                    this life, to love and be loved."</p>
+                                <p>Putri dari Bapak Roni Mutaqin dan Ibu Siti Nurhayati. <br> "Internet connection may be lost, but the connection with Allah must always be there."</p>
                                 <!-- social icons -->
                                 <div class="social-icons-sm">
                                     <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
@@ -397,17 +396,59 @@
     <audio id="myAudio" loop="loop" autoplay="autoplay">
 		<source src="music/Rey_Mbayang_-_Di_Sepertiga_Malam.mp3" type="audio/mpeg">
 	</audio>
+    <script>
+        var currentpos = 0,
+            alt = 1,
+            curpos1 = 0,
+            curpos2 = -1
 
+        function initialize() {
+            startit()
+        }
+
+        function scrollwindow() {
+            if (document.all)
+                temp = document.body.scrollTop
+            else
+                temp = window.pageYOffset
+            if (alt == 0)
+                alt = 1
+            else
+                alt = 0
+            if (alt == 0)
+                curpos1 = temp
+            else
+                curpos2 = temp
+            if (curpos1 != curpos2) {
+                if (document.all)
+                    currentpos = document.body.scrollTop + 1
+                else
+                    currentpos = window.pageYOffset + 1
+                window.scroll(0, currentpos)
+            } else {
+                currentpos = 0
+                window.scroll(0, currentpos)
+            }
+        }
+
+        function startit() {
+            setInterval("scrollwindow()", 100)
+        }
+        
+    </script>
     <script>
         var x = document.getElementById("myAudio");
         
         function playSound() { 
           x.autoplay = true;
           x.load();
-          
+
+          initialize();
         }
+        
 
     </script> 
+    
 
     <!-- Javascript Files
     ================================================== -->
